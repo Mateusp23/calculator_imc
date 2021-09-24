@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculo de IMC</string>
+    <string name="toast_warning_inputs">Você deve preencher todos os campos</string>
+    <string name="hint_height">Altura (m)</string>
+    <string name="hint_weight">Peso (kg)</string>
+    <string name="btn_calculate_imc">Calcular IMC</string>
+    <string name="hint_name">Digite seu nome: (Ex: Mateus)</string>
+    <string name="title_toolbar">Calculo de IMC</string>
+
+    <string name="very_under_weight">Muito abaixo do peso.</string>
+    <string name="under_weight">Abaixo do peso.</string>
+    <string name="good_weight">Peso normal.</string>
+    <string name="over_weight">Acima do peso.</string>
+    <string name="obesity_weight1">Obesidade I.</string>
+    <string name="obesity_weight2">Obesidade II(severa).</string>
+    <string name="obesity_weight3">Obesidade III(mórbida).</string>
+    <string name="title_hello_imc_result">Olá,</string>
+    <string name="tv_height_imc_result">Sua Altura:</string>
+    <string name="tv_weight_imc_result">Seu Peso:</string>
+    <string name="title_splash">Bora lá calcular sua Massa Corporal?</string>
+
+    <string name="error_input">Por Favor, Preencha esse campo!</string>
+    <string name="tv_gender_imc_result">Gênero:</string>
+
+</resources>

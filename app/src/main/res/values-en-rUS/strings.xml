@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">body mass calculation</string>
+    <string name="toast_warning_inputs">You must fill in all fields.</string>
+    <string name="hint_height">height (m)</string>
+    <string name="hint_weight">Weight (kg)</string>
+    <string name="btn_calculate_imc">body mass calculation</string>
+    <string name="hint_name">Enter your name: (Ex: Matthew</string>
+    <string name="title_toolbar">body mass calculation</string>
+    <string name="very_under_weight">very underweight</string>
+    <string name="under_weight">Under weight.</string>
+    <string name="good_weight">Normal weight.</string>
+    <string name="over_weight">Overweight</string>
+    <string name="obesity_weight1">Obesity I.</string>
+    <string name="obesity_weight2">Obesity II (severe).</string>
+    <string name="obesity_weight3">Obesity III (morbid)</string>
+    <string name="title_hello_imc_result">Hello,</string>
+    <string name="tv_height_imc_result">Your Height:</string>
+    <string name="tv_weight_imc_result">Your weight:</string>
+    <string name="title_splash">Let\'s calculate your Body Mass there?</string>
+    <string name="error_input">Please fill in this field</string>
+    <string name="tv_gender_imc_result">Gender:</string>
+</resources>
