@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         binding.btnCalculateImc.setOnClickListener {
             if(binding.tilName.text == "" || binding.tilHeight.text == "" || binding.tilWeight.text == ""){
                 Toast.makeText(applicationContext, R.string.toast_warning_inputs, Toast.LENGTH_LONG).show()
-                binding.tilName.error = getString(R.string.error_input) 
                 binding.tilWeight.error = getString(R.string.error_input)
                 binding.tilHeight.error = getString(R.string.error_input)
             } else {
@@ -41,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(applicationContext, ResultActivity::class.java)
                 intent.putExtra(IMC_ID, imc)
                 startActivity(intent)
+                clearTexts()
             }
         }
     }
@@ -64,5 +64,12 @@ class MainActivity : AppCompatActivity() {
                     }
             }
         }
+    }
+
+    private fun clearTexts() {
+        binding.tilName.text = ""
+        binding.tilHeight.text = ""
+        binding.tilWeight.text = ""
+        binding.radioGroup.clearCheck()
     }
 }
