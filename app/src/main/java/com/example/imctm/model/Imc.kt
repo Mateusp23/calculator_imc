@@ -15,7 +15,7 @@ class Imc (var weight: Double, var height: Double, var name: String, var gender:
     }
 
     fun calculateImc(context: Context): String {
-        var imcResult = this.weight / (this.height * this.height)
+        val imcResult = this.weight / (this.height * this.height)
 
         if (gender == "Masculino") {
             return when(imcResult) {

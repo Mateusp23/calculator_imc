@@ -20,4 +20,8 @@
     <string name="title_splash">Let\'s calculate your Body Mass there?</string>
     <string name="error_input">Please fill in this field</string>
     <string name="tv_gender_imc_result">Gender:</string>
+    <string name="tv_gender">Gender:</string>
+    <string name="rb_others">Others</string>
+    <string name="rb_man">Man</string>
+    <string name="rb_woman">Woman</string>
 </resources>

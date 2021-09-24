@@ -21,5 +21,9 @@
 
     <string name="error_input">Por Favor, Preencha esse campo!</string>
     <string name="tv_gender_imc_result">Gênero:</string>
+    <string name="tv_gender">Gênero:</string>
+    <string name="rb_others">Outros</string>
+    <string name="rb_man">Masculino</string>
+    <string name="rb_woman">Feminino</string>
 
 </resources>

@@ -129,7 +129,7 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/color_button"
             android:onClick="onRadioButtonClicked"
-            android:text="Feminino"
+            android:text="@string/rb_woman"
             android:textColor="@color/white" />
 
         <RadioButton
@@ -138,7 +138,16 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/color_button"
             android:onClick="onRadioButtonClicked"
-            android:text="Masculino"
+            android:text="@string/rb_man"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_button"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/rb_others"
             android:textColor="@color/white" />
     </RadioGroup>
 
@@ -147,9 +156,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Gênero:"
-        android:textSize="20sp"
+        android:text="@string/tv_gender"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/guide_start"
         app:layout_constraintTop_toBottomOf="@+id/til_weight" />
 

@@ -58,6 +58,10 @@ class MainActivity : AppCompatActivity() {
                     if(checked) {
                         resultGender = "Masculino"
                     }
+                R.id.rb_others ->
+                    if(checked) {
+                        resultGender = "Outros"
+                    }
             }
         }
     }
